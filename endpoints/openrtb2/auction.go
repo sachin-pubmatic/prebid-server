@@ -115,6 +115,8 @@ func (deps *endpointDeps) Auction(w http.ResponseWriter, r *http.Request, _ http
 	// to compute the auction timeout.
 	start := time.Now()
 
+	//FIXME: Test comment. This comment must be removed.
+	
 	ao := analytics.AuctionObject{
 		Status:    http.StatusOK,
 		Errors:    make([]error, 0),
